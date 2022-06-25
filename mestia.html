@@ -16,6 +16,13 @@
         <link rel="stylesheet" href="css/templatemo-style5.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="css/stylee.css">
+
+        <style>
+            table, th, td {
+  border:1px solid black;
+}
+</style>
     </head>
 <body>
         <header class="nav-down responsive-nav hidden-lg hidden-md">
@@ -173,9 +180,20 @@
                                 </div>
                             </div>
                             <div class="text-content">
-                                <h4>Lorem ipsum dolor</h4>
-                                <span>Proin et sapien</span>
-                                <p>#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.</p>
+                                <table class="tran1">
+                                    <tr>
+                                        <td>ChildIn</td>
+                                        <td>AdultIn</td>
+                                        <td>ChildOut</td>
+                                        <td>AdultOunt</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="demo"></td>
+                                        <td id="demo2"></td>
+                                        <td id="demo3"></td>
+                                        <td id="demo4"></td>
+                                    </tr>
+                                </table> 
                             </div>
                         </div>
                         <div class="item">
@@ -186,9 +204,20 @@
                                 </div>
                             </div>
                             <div class="text-content">
-                                <h4>Phasellus a lacus ac odio</h4>
-                                <span>Maximus</span>
-                                <p>#2 You are NOT allowed to re-distribute this on any template website. You <strong>can post</strong> a screenshot and a link back to original template page on your blog or site. Thank you.</p>
+                                <table class="tran2">
+                                    <tr>
+                                        <td>ChildIn</td>
+                                        <td>AdultIn</td>
+                                        <td>ChildOut</td>
+                                        <td>AdultOunt</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="demo5"></td>
+                                        <td id="demo6"></td>
+                                        <td id="demo7"></td>
+                                        <td id="demo8"></td>
+                                    </tr>
+                                </table>    
                             </div>
                         </div>
                         <div class="item">
@@ -199,9 +228,20 @@
                                 </div>
                             </div>
                             <div class="text-content">
-                                <h4>Proin sit amet fringilla</h4>
-                                <span>Vulputate</span>
-                                <p>#3 Aliquam mollis lacus eget metus efficitur lobortis. Suspendisse libero lacus, accumsan vitae commodo tristique, luctus gravida metus.</p>
+                                <table class="tran3">
+                                    <tr>
+                                        <td>ChildIn</td>
+                                        <td>AdultIn</td>
+                                        <td>ChildOut</td>
+                                        <td>AdultOunt</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="demo9"></td>
+                                        <td id="demo10"></td>
+                                        <td id="demo11"></td>
+                                        <td id="demo12"></td>
+                                    </tr>
+                                </table>  
                             </div>
                         </div>
                         <div class="item">
@@ -536,6 +576,91 @@
     
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        let timerId = setTimeout(function tick() {
+        document.getElementById("demo").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 10000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId2 = setTimeout(function tick() {
+        document.getElementById("demo2").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 10000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId3 = setTimeout(function tick() {
+        document.getElementById("demo3").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 20000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId4 = setTimeout(function tick() {
+        document.getElementById("demo4").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 20000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId5 = setTimeout(function tick() {
+        document.getElementById("demo5").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 8000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId6 = setTimeout(function tick() {
+        document.getElementById("demo6").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 8000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId7 = setTimeout(function tick() {
+        document.getElementById("demo7").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 15000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId8 = setTimeout(function tick() {
+        document.getElementById("demo8").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 18000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId9 = setTimeout(function tick() {
+        document.getElementById("demo9").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 5000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId10 = setTimeout(function tick() {
+        document.getElementById("demo10").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 5000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId11 = setTimeout(function tick() {
+        document.getElementById("demo11").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 10000);
+        }, 2000);
+    </script>
+    <script>
+        let timerId12 = setTimeout(function tick() {
+        document.getElementById("demo12").innerHTML =
+        Math.floor(Math.random() * 10   ) + 1;;
+        timerId = setTimeout(tick, 10000);
+        }, 2000);
+    </script>
 
     <script>
         // Hide Header on on scroll down

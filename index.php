@@ -23,11 +23,11 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 <body>
-    <br><br>
+    <!-- <br><br>
     <?php
         include "App/blocks/header.php";
       ?>
-    <br><br>
+    <br><br> -->
     <header class="nav-down responsive-nav hidden-lg hidden-md">
             <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
                 <span class="sr-only">Toggle navigation</span>
@@ -137,7 +137,7 @@
                         <div class="image"></div>
                         <div class="info">
                         <div>
-                          <h1>BAKURIANI <br>RESORT </h1>
+                          <h1 id="demo">BAKURIANI <br>RESORT </h1>
                           <p>The region around Bakuriani is covered by coniferous forests (mainly made up of spruce). <br>The resort lies 30 km (19 mi) from Borjomi and is located within the so-called <br>Bakuriani Depression/caldera. The resort is connected with Borjomi by an electrified narrow-gauge railway.
 							<br>The present-day area of the town was built up by lava flows from the nearby Mukhera volcano.</p>
                           
@@ -203,7 +203,7 @@
                                 </div>
                             </div>
                             <div class="text-content">
-                                <h4>Lorem ipsum dolor</h4>
+                                <h4>BAKURIANI</h4>
                                 <span>Proin et sapien</span>
                                 <p>#1 You are allowed to use Sentra Template for your business or client websites. You can use it for commercial or non-commercial or educational purposes.</p>
                             </div>
@@ -572,7 +572,16 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     //
+    <script>
+        function test() {
+            let timerId = setTimeout(function tick() {
+        document.getElementById("demo").innerHTML =
+        Math.floor(Math.random() * 100) + 1;;
+        timerId = setTimeout(tick, 10000);
+        }, 2000);
+}
         
+    </script>   
 
     
     
