@@ -29,16 +29,18 @@
 
       <div>
         <label>Username</label>
-        <input type="text" name="username" value="<?=$username;?>" class="text-input">
+        <input type="text" name="username" placeholder="Enter your user" value="<?=$username;?>" class="text-input">
       </div>
       <div>
         <label>Password</label>
-        <input type="password" name="password" value="<?=$password;?>" class="text-input">
+        <input type="password" name="password" placeholder="*********" value="<?=$password;?>" class="text-input">
       </div>
       <div>
         <button type="submit" name="login-btn" class="btn">Login</button>
       </div>
       <p class="auth-nav">Or <a href="register.php">Sign Up</a></p>
+      <h6><a href="index.php"><span style="color: blue;">Home page</span></a></h6>
+      
     </form>
   </div>
 

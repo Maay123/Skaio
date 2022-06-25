@@ -28,19 +28,19 @@
 
       <div>
         <label>Username</label>
-        <input type="text" name="username" value="<?=$username;?>" class="text-input">
+        <input type="text" name="username" placeholder="Username" value="<?=$username;?>" class="text-input">
       </div>
       <div>
         <label>Email</label>
-        <input type="email" name="email" value="<?=$email;?>" class="text-input">
+        <input type="email" name="email" placeholder="Enter your email" value="<?=$email;?>" class="text-input">
       </div>
       <div>
         <label>Password</label>
-        <input type="password" name="password" value="<?=$password;?>" class="text-input">
+        <input type="password" name="password" placeholder="*********" value="<?=$password;?>" class="text-input">
       </div>
       <div>
         <label>Confirm Password</label>
-        <input type="password" name="passwordConf" value="<?=$passwordConf;?>" class="text-input">
+        <input type="password" name="passwordConf" placeholder="*********" value="<?=$passwordConf;?>" class="text-input">
       </div>
       <div>
         <button type="submit" name="register-btn" class="btn">Register</button>
